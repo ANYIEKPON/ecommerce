@@ -78,7 +78,7 @@
         align-items: center;
         gap: 10px;
         margin-left: 15px;
-        margin-top: 25px;
+        margin-top: 30px;
         height: 65vh;
         overflow: auto;
         
@@ -91,8 +91,8 @@
         justify-content: center;
         position: static;
         height: 2vh;
-        padding-bottom: 1.2rem;
-        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
     }
 
     .p button {
@@ -103,5 +103,14 @@
     .lat{
         padding-top: 20px;
         font-size: 10px;
+    }
+
+    .latest{
+        height: 5vh;
+        position: static;
+    }
+
+    .modern{
+        height: 74vh;
     }
 }

@@ -45,6 +45,7 @@
     .topMenu{
         display: flex;
         height: 7vh;
+        padding-top: 2.5rem;
     }
     
     .menu-right{
@@ -85,6 +86,6 @@
     .s-icon{
         display: flex;
         margin-right: 0.2rem;
-        margin-top: 5px;
+        margin-top: 2px;
     }
 }
