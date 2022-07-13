@@ -1,0 +1,148 @@
+.row {
+    display: flex;
+    padding: 1rem;
+    height: 85vh;
+    
+}
+
+.prod{
+    display: flex;
+    background-color: white;
+    border-radius: 20px 0px 0px 0px;   
+}
+
+.product_img {
+    padding-left: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-right: 3rem;
+}
+
+.product_des{
+    padding-left: 3rem;
+    padding-right: 4rem;
+    padding-top: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.product_cat h4{
+    font-size: 25px;
+    font-weight: 1px;
+    margin-bottom: 0px;
+}
+
+.product_cat h1{
+    margin-top: 1px;
+    margin-bottom: 0.5px;
+}
+
+.product_cat p{
+    margin-top: 1px;
+}
+
+.product_cat h1{
+    font-size: 2rem;
+}
+
+/* .product_des h4{
+    font-size: 20px;
+} */
+
+/* .product_des h1{
+    font-size: 15px;
+} */
+
+.cart {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        display: flex;
+        padding: 1rem;
+        /* height: 85vh; */
+    
+        
+    }
+ 
+    .product_img {
+        margin-top: 2rem;
+        padding-left: 0px;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+        padding-right: 2px;
+        height: 40vh;
+        width: 80%;
+        
+    }
+    .product_des{
+        /* padding-left: 3rem;
+        padding-right: 4rem; */
+        padding-top: 1.8rem;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding-left: 2px;
+        padding-right: 3px;
+        height: 40vh;
+        width: 100%;
+    
+    }
+
+    .product_img img{
+        height: 40%;
+        width: 70%;
+    }
+
+    .product_cat h4{
+        font-size: 10px;
+        font-weight: 1px;
+        margin-bottom: 2px;
+    }
+    
+    .product_cat h1{
+        margin-top: 5px;
+        margin-bottom: 0.5px;
+    }
+    
+    
+    
+    .product_cat h1{
+        font-size: 15px;
+    }
+
+    .product_cat h3, p{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    .product_cat{
+        margin-top: 3.5rem;
+    }
+
+    button {
+        cursor: pointer;
+        font-size: 7px;
+        margin-top: 0.5rem;
+    }
+
+}
