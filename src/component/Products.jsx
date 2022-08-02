@@ -88,12 +88,14 @@ function Products() {
                                 <>
                                     <div className='all-p'>
                                                 <div key={product.id} className='products'>
+                                                    <Link to={`/products/${product.id}`}>
                                                         <div className='im'><img src={product.image} alt={product.title} className='image' height='100px' width='100px' /></div>
                                                         <div>
                                                             <h5>{product.title.substring(0,12)}...</h5>
                                                             <p>${product.price}</p>
-                                                            <div className='buy'><Link to={`/products/${product.id}`}><button>Buy Now</button></Link></div>
+                                                            {/* <div className='buy'><button>Buy Now</button></div> */}
                                                         </div>
+                                                    </Link>
                                                 </div>
                                     </div>
                                 </>

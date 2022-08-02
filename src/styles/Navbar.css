@@ -28,6 +28,11 @@
 .signIn{
     display: flex;
     margin: 0px 5px;
+    gap: 3px;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 7px;
+    padding-top: 3.5px;
 }
 
 .menu-left{
@@ -36,9 +41,14 @@
    
 }
 
+
 .b{
     text-decoration: none;
     color: inherit;
+}
+
+.s {
+    margin-top: 3px;
 }
 
 @media screen and (max-width: 768px) {
@@ -82,6 +92,7 @@
     .s{
         display: none;
         display: flex;
+       
     }
     .s-icon{
         display: flex;

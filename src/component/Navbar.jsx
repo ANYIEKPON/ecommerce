@@ -28,27 +28,27 @@ function Navbar() {
         </div>
         <div className='menu-right'>
           <div className='s'>
-            <div className='s-icon'><Search fontSize='5' type='text' placeholder='search' /></div>
+            <div className='s-icon'><Search  type='text' placeholder='search' /></div>
             <div><input type="text" placeholder='Search...' className='search' /></div>
           </div>
           <div>
             <button className='signIn'>
-              <div className='a'><VpnKey fontSize='5' /></div>
+              <div className='a'><VpnKey  /></div>
               <div className='b'>Login</div>
             </button>
           </div>
             <div>
               <button className='signIn'> 
-                <div  className='a'><HowToReg fontSize='5' /></div>
+                <div  className='a'><HowToReg /></div>
                 <div className='b'>Register</div>
                </button>
             </div>
             <div className='item_cart'>
             <Link to='/cart' onClick={() => showCart(allProduct)}>
               <button className='signIn'> 
-                <div className='a'><AddShoppingCart fontSize='5' /></div>
+                <div className='a'><AddShoppingCart /></div>
                  <div className='b'>Cart</div>
-                 ({state.length})
+                 <div className='num'>({state.length})</div>
               </button></Link>
             </div>
         </div>

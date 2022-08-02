@@ -11,7 +11,7 @@ import '../styles/Product.css';
 function Product() {
 
     const { id } = useParams();
-    const [product, setProduct] = useState([]);
+    const [product, setProduct] = useState({});
     const [loading, setLoading] = useState(false);
     const dispatch = useDispatch();
 

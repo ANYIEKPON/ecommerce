@@ -1,5 +1,5 @@
 .card{
-    height: 85vh;
+    /* height: 85vh; */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -21,14 +21,14 @@
     position: relative;
     text-align: left;
     color: rgb(129, 177, 177);
-    height: 5vh;
+    /* height: 5vh; */
 }
 
 .product{
     /* display: grid;
     grid-template-columns: auto auto auto auto; */
     position: relative;
-    height: 79vh;  
+    /* height: 79vh;   */
     width: 100%; 
 }
 
@@ -38,9 +38,12 @@
 
 .heading{
     margin-top: 3px;
+    color: black;
 }
 .text{
     margin-top: 5px;
+    color: black;
+    
 }
 
 @media screen and (max-width: 768px) {

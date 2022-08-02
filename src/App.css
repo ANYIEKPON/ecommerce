@@ -1,16 +1,16 @@
 .App {
   text-align: center;
-  height: 100vh;
+  /* height: 100vh; */
   contain: content;
   display: flex;
   flex-direction: column;
   margin: 0px 4rem;
-  overflow: auto;
+  /* overflow: auto; */
   
 }
 
 .body{
-  height: 85vh;
+  /* height: 85vh; */
   display: flex;
   flex-direction: row;
   
@@ -20,7 +20,7 @@
 .topbar{
   flex: 1.5;
   background-color: rgb(191, 212, 212);
-  height: 85vh;
+  /* height: 85vh; */
 
 }
 
@@ -33,6 +33,7 @@
 .footbar{
   height: 8vh;
   background-color: rgb(191, 212, 212);
+  
 }
 
 /* .App-logo {
